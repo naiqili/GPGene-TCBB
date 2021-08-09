@@ -21,11 +21,13 @@ Besides, some basic packages like `numpy` are also needed.
 - `main_ts.py`: Main program for dynamic GRN inference.
 - `main_monocle_ts.py`: Main program for realistic HSMM dataset.
 - `main_monocle_ts.py`, `main_monocle_ts.py`, `main_monocle_ts.py`, `main_monocle_ts.py`: Scripts for running experiments. Paths need to be reconfigured before execution.
+- `synnet_and.py`, `synnet_andnot.py`, `run_synnet_and.sh`, `run_synnet_andnot.sh`: Scripts for running the synthetic experiments.
+- `run_hESC200.sh`, `run_hHEP200.sh`: Scripts for running the single-cell RNA experiments.
 - `draw_fig.ipynb`: Notebook for visualizing static GRN inference results.
 - `demo_toy.ipynb`: Notebook for dynamic GRN inference results on the toy dataset.
 - `dynamic_synthetic_analysis.ipynb`: Notebook for visualizing dynamic GRN inference results on the synthetic dataset.
 - `dynamic_HSMM_analysis.ipynb`: Notebook for visualizing dynamic GRN inference results on the realistic HSMM dataset.
-- `./eval/*`:  Scripts for evaluation static GRN inference results, using [GeneNetWeaver](https://github.com/tschaffter/gnw).  Paths need to be reconfigured before execution.
+- `./eval/*`:  Scripts for evaluation, using [GeneNetWeaver](https://github.com/tschaffter/gnw) and [BEELINE](https://github.com/Murali-group/Beeline). 
 - `./results/synthetic/*`:  Inferred network for the synthetic dataset in each time step.
 - `./results/HSMM/*`:  Inferred network for the realistic HSMM dataset in each time step.
 
